@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Form</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <h1>Create a New Blog Post</h1>
+    <form action="/submit-blog" method="POST">
+        <div>
+            <label for="title">Enter Title:</label>
+            <br>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="description">Enter Description:</label>
+            <br>
+            <textarea id="description" name="description" rows="9" required></textarea>
+        </div>
+        <div>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

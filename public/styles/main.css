@@ -1,0 +1,100 @@
+/* General Reset for Consistent Button Styling */
+button,
+input[type="submit"] {
+    background-color: #2E8B57; /* Button color */
+    color: white;
+    padding: 12px 24px; /* Reversed back to original padding for the button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    text-transform: uppercase; /* Ensures button text is uppercase */
+}
+
+/* Button Hover Effect */
+button:hover,
+input[type="submit"]:hover {
+    background-color: #1E6F4C; /* Darker shade on hover */
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E8F5F2; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content from the top */
+    min-height: 100vh;
+    padding-top: 10px; /* Padding for space at the top */
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2rem; 
+    color: #2E8B57; 
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px; /* Margin to separate heading from the top */
+}
+
+/* Blog Form Styling */
+.blog-form {
+    background-color: #ffffff; 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px; /* Decreased padding around the form */
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px; /* Decreased margin for white area below */
+    margin-top: 5px; /* Decreased margin for space between top of page and form */
+    margin-left: auto; /* Ensure centering */
+    margin-right: auto; /* Ensure centering */
+}
+
+/* Blog Data Styling */
+.blog-data {
+    background-color: #ffffff; 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+/* Blog Data Heading */
+.blog-data h1 {
+    font-size: 1.8rem;
+    color: #2E8B57; 
+    margin: 10px 0;
+}
+
+/* Blog Data Paragraph */
+.blog-data p {
+    font-size: 1.1rem; 
+    color: #333333; 
+    line-height: 1.8; 
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #2E8B57; 
+    background-color: #F1F8F6; 
+    border-radius: 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Blog Data Description Label */
+.blog-data .description-label {
+    font-size: 1.6rem; 
+    color: #2E8B57; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
